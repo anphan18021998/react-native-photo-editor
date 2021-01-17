@@ -132,6 +132,7 @@ public class PhotoEditorActivity extends AppCompatActivity implements View.OnCli
 
         Typeface newFont = getFontFromRes(R.raw.eventtusicons);
         Typeface fontAwesome = getFontFromRes(R.raw.font_awesome_solid);
+        Typeface fontello = getFontFromRes(R.raw.fontello);
 
         emojiFont = getFontFromRes(R.raw.emojioneandroid);
 
@@ -167,7 +168,7 @@ public class PhotoEditorActivity extends AppCompatActivity implements View.OnCli
         photoEditImageView.setImageBitmap(rotatedBitmap);
 
         closeTextView.setTypeface(newFont);
-        addTextView.setTypeface(newFont);
+        addTextView.setTypeface(fontello);
         addPencil.setTypeface(newFont);
         addImageEmojiTextView.setTypeface(newFont);
         addCropTextView.setTypeface(fontAwesome);

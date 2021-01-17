@@ -1,19 +1,19 @@
 <resources>
-    <string name="app_name">PhotoEditor</string>
-    <string name="title_activity_photo_editor">PhotoEditorActivity</string>
-    <string name="done">Done</string>
-    <string name="save">Save</string>
-    <string name="clear_all">Clear All</string>
-    <string name="camera">Camera</string>
-    <string name="gallery">Gallery</string>
-    <string name="upload_dialog_title">Upload Image</string>
-    <string name="upload_picker_title">Select Picture</string>
-    <string name="directory_create_fail">Failed to create directory</string>
-    <string name="access_media_permissions_msg">To attach photos, we need to access media on your device</string>
-    <string name="continue_txt">Continue</string>
-    <string name="not_now">NOT NOW</string>
-    <string name="media_access_denied_msg">You denied storage access, no photos will be added.</string>
-    <string name="save_image_succeed">Image saved</string>
+    <string name="app_name">照片编辑器</string>
+    <string name="title_activity_photo_editor">照片编辑器活动</string>
+    <string name="done">完成了</string>
+    <string name="save">保存</string>
+    <string name="clear_all">全部清除</string>
+    <string name="camera">相机</string>
+    <string name="gallery">画廊</string>
+    <string name="upload_dialog_title">上传图片</string>
+    <string name="upload_picker_title">选择图片</string>
+    <string name="directory_create_fail">创建目录失败</string>
+    <string name="access_media_permissions_msg">附加照片，我们需要访问您设备上的媒体</string>
+    <string name="continue_txt">继续</string>
+    <string name="not_now">现在不要</string>
+    <string name="media_access_denied_msg">您拒绝了存储访问权限，不会添加任何照片。</string>
+    <string name="save_image_succeed">图片已保存</string>
 
     <string name="ic_close">"\ue918"</string>
     <string name="ic_text">"\ue945"</string>
@@ -24,9 +24,9 @@
     <string name="ic_continue">"\ue948"</string>
     <string name="ic_delete">"\ue92c"</string>
     <string name="ic_crop">&#xf565;</string>
-    <string name="choose_from_gallery">Choose From Gallery</string>
-    <string name="choose_from_camera">Choose From Camera</string>
+    <string name="choose_from_gallery">从图库中选择</string>
+    <string name="choose_from_camera">从相机中选择</string>
     <string name="undo">Undo</string>
-    <string name="erase">Erase</string>
+    <string name="erase">擦除</string>
 
 </resources>
