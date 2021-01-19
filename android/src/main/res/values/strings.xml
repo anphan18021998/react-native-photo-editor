@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">照片编辑器</string>
     <string name="title_activity_photo_editor">照片编辑器活动</string>
-    <string name="done">完成了</string>
+    <string name="done">完成</string>
     <string name="save">保存</string>
     <string name="clear_all">全部清除</string>
     <string name="camera">相机</string>
