@@ -27,7 +27,7 @@ RCTResponseSenderBlock _onCancelEditing = nil;
         path = url.path;
     }
 
-    [isPNG ? UIImagePNGRepresentation(image) : UIImageJPEGRepresentation(image, 0.8) writeToFile:path options:NSDataWritingAtomic error:&error];
+    [UIImagePNGRepresentation(image) writeToFile:path options:NSDataWritingAtomic error:&error];
 
     if (error != nil)
         NSLog(@"write error %@", error); 
